@@ -39,12 +39,14 @@ class _FlowerState extends State<Flower> {
                 }
               },
                       ),
+              TextField(style: TextStyle(color: Colors.white),)
             ],
           ),
               TextButton(onPressed: (){Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => const Profile()),);}, child: Text('SCAN',style: TextStyle(color: Colors.white),),)
             ],
+
 
 
           ),

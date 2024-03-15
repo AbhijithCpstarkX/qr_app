@@ -37,6 +37,7 @@ class _QrPageState extends State<QrPage> {
               TextButton(onPressed: (){Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Flower()),);}, child: Text('SCAN',style: TextStyle(color: Colors.white),),)
+
             ],
           ),
         ),

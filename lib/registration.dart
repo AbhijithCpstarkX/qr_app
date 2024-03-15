@@ -72,6 +72,7 @@ class _RegState extends State<Reg> {
                   ),
                 ),
                 ElevatedButton(
+
                   child: Text('Register',style: TextStyle(color: Colors.white,fontSize: 20)),
                   onPressed: () {Navigator.push(
                       context,
@@ -79,7 +80,7 @@ class _RegState extends State<Reg> {
                   );
                   },
                   style: ElevatedButton.styleFrom(
-
+                      backgroundColor: Colors.teal,
                       padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                       textStyle: TextStyle(
                         fontSize: 2,)),
