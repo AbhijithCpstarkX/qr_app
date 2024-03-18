@@ -35,7 +35,7 @@ class _RegState extends State<Reg> {
    if(response.statusCode == 200) {
      Navigator.push(context, MaterialPageRoute(builder: (context)=>const LoginScreen()));
    }else{
-     // ScaffoldMessenger.of(context).showSnackBar(SnackBar(content:Text('SOMETHING WENT WRONG')));
+     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content:Text('SOMETHING WENT WRONG')));
    }
 
   }
